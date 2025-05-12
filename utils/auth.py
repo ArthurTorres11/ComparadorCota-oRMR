@@ -13,7 +13,7 @@ def login():
     if st.session_state.logged_in:
         return True
 
-    st.sidebar.image(r"C:\Users\sitet\OneDrive\Área de Trabalho\ComparadorRMR\assets\logo.png", width=250)
+    st.sidebar.image("assets/logo-rmr.png", width=250)
     st.sidebar.title("🔐 Login")
 
     with st.sidebar.form("login_form"):

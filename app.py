@@ -43,7 +43,7 @@ def local_css():
 local_css()
 
 if login():
-    st.image(r"C:\Users\sitet\OneDrive\Área de Trabalho\ComparadorRMR\assets\logo.png", width=250)
+    st.image("assets/logo-rmr.png", width=250)
     st.title("🔧 Comparador de Cotações RMR")
     st.markdown("Envie suas planilhas e obtenha rapidamente os melhores preços por peça.")
     process_files()
