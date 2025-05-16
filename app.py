@@ -8,7 +8,6 @@ st.set_page_config(
     page_icon="🔧"
 )
 
-# Estilização customizada
 def local_css():
     st.markdown("""
         <style>
